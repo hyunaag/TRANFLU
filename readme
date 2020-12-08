@@ -1,0 +1,7 @@
+The project was unsuccessful. To be candid; I bit off more than I could chew with the implementation in the time I had (i forgot i also take other courses for a second.)
+I have two untested algorithms: 1 distributed 1 centralized.
+
+The intention of the project was to test and optimize both distributed system algorithms using the data output from SUMO simulator, AND specific traffic flow optimization algorithms. (was using recursive func. to perform hash functions on data passed from all inductino loops).
+
+Any deliverables will be located in the runnerA.py file. the run() function contains the logic of the traffic control programs. runner A and B were implemented as a system co0ordinator and a cycle phase adjuster respectively.
+

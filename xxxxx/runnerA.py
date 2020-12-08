@@ -17,7 +17,6 @@ else:
 from sumolib import checkBinary  # noqa
 import traci  # noqa
 
-
 def generate_routefile():
     random.seed(42)  # make tests reproducible
     N = 3600  # number of time steps
@@ -58,6 +57,7 @@ guiShape="passenger"/>
 #        <phase duration="31" state="rGrG"/>
 #        <phase duration="6"  state="ryry"/>
 #    </tlLogic>
+#TODO: add programs
 
 
 def run():
@@ -105,6 +105,6 @@ if __name__ == "__main__":
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "data/cross.sumocfg",
+    traci.start([sumoBinary, "-c", "data/model.sumocfg",
                              "--tripinfo-output", "tripinfo.xml"])
     run()

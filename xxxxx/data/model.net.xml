@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon Sep 18 16:20:48 2017 by SUMO netconvert Version 0.30.0
-<?xml version="1.0" encoding="UTF-8"?>
-
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
-
-    <input>
-        <node-files value="model.nod.xml"/>
-        <edge-files value="model.edg.xml"/>
-        <connection-files value="model.con.xml"/>
-        <type-files value="model.typ.xml"/>
-    </input>
-
-    <output>
-        <output-file value="model.net.xml"/>
-    </output>
-
-    <processing>
-        <no-turnarounds value="true"/>
-    </processing>
-
-    <report>
-        <verbose value="true"/>
-    </report>
-
-</configuration>
--->
 
 <net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
